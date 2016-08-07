@@ -13,6 +13,15 @@ To put ``subl`` on your ``PATH``,
 you may need to add directories to ``PATH``
 or use symbolic links.
 
+Also you can define an alias to the full path to the subl program file:
+
+``alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'``
+
+Note the space on "Sublime Text" 
+needs to be escaped with character "\\".
+
+This alias command can be added
+to your .profile or .bashrc
 
 Invocations
 -----------
